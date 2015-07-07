@@ -1,6 +1,6 @@
 {
   "name": "hubot-raven",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "David Cramer <dcramer@gmail.com>",
   "description": "Sentry integration for Hubot",
   "main": "index.js",
