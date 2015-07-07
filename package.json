@@ -1,0 +1,41 @@
+{
+  "name": "hubot-raven",
+  "version": "0.0.1",
+  "author": "David Cramer <dcramer@gmail.com>",
+  "description": "Sentry integration for Hubot",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getsentry/hubot-raven"
+  },
+  "keywords": [
+    "sentry",
+    "deploy",
+    "hubot",
+    "chatops",
+    "deployment"
+  ],
+  "homepage": "https://github.com/getsentry/hubot-raven",
+  "contributors": [
+    {
+      "name": "David Cramer",
+      "email": "dcramer@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "hubot": ">=2.7.2",
+    "raven": ">=0.8.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/getsentry/hubot-raven/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://github.com/getsentry/hubot-raven/raw/master/LICENSE"
+    }
+  ]
+}
