@@ -22,7 +22,6 @@ var logWrapper = function(origFunc, level) {
 
 console.error = logWrapper(console.error, 'error');
 console.warn = logWrapper(console.warn, 'warning');
-console.log = logWrapper(console.log, 'info');
 
 module.exports = function(robot, scripts) {
 };
