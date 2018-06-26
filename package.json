@@ -24,7 +24,8 @@
   ],
   "dependencies": {
     "hubot": ">=2.7.2",
-    "raven": ">=0.8.1"
+    "raven": ">=0.8.1",
+    "snyk": "^1.85.0"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -37,5 +38,10 @@
       "type": "Apache 2.0",
       "url": "http://github.com/getsentry/hubot-raven/raw/master/LICENSE"
     }
-  ]
+  ],
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
